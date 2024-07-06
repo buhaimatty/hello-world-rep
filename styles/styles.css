@@ -12,6 +12,11 @@ h1 {
   color: rgb(97, 202, 223);
 }
 
+h1::selection {
+  color: white;
+  background-color: rgb(97, 202, 223);
+}
+
 img {
   width: 25%;
   border-radius: 0.8em;
